@@ -37,7 +37,7 @@ C family compiler
 * ucu (Binary, Ulti-style cu)
 * ucx (Shared, Compiler ontology)
 
-### concept (header-only)
+### ucpt (header-only)
 Conceptual compiler for header files only
 * cx (C family Conceptual front-end)
 * optimizer (Optimizer)
@@ -49,7 +49,7 @@ Conceptual compiler for header files only
 
 ## How to build
 1. Install [[xmake]](https://github.com/xmake-io/xmake/)
-2. Install [[gcc14+]](https://github.com/trcrsired/gcc-releases/releases) or [[llvm18+]](https://github.com/trcrsired/llvm-releases/releases)
+2. Install [gcc14+] or [llvm18+]
 3. Build
 ```bash
 $ xmake 

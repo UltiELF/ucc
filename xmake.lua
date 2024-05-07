@@ -490,7 +490,11 @@ function defopt()
 end
 
 -- target
-
+target("ucpt")
+	set_default(false)
+    set_kind("headeronly")
+    add_headerfiles("ucpt/*.h", {prefixdir = "ucpt"})
+target_end()
 
 
 

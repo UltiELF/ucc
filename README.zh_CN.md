@@ -37,7 +37,7 @@ C 家族编译器
 * ucu (程序, Ulti 风格 cu)
 * ucx (动态链接库, 编译器主体)
 
-### concept (header-only)
+### ucpt (header-only)
 仅用于头文件的概念编译器
 * cx (C 家族概念前端)
 * optimizer (优化器)
@@ -49,7 +49,7 @@ C 家族编译器
 
 ## 如何构建
 1. 安装 [[xmake]](https://github.com/xmake-io/xmake/)
-2. 安装 [[gcc14+]](https://github.com/trcrsired/gcc-releases/releases) or [[llvm18+]](https://github.com/trcrsired/llvm-releases/releases)
+2. 安装 [gcc14+] or [llvm18+]
 3. 开始构建
 ```bash
 $ xmake 
